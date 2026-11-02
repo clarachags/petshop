@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MimoPet - PetShop</title>
+</head>
+
+<body>
+
+    <!-- cabeçalho -->
+    <header>
+        <h1>🐾 MimoPet - PetShop</h1>
+        <p>Amor e cuidado para mimar o seu melhor amigo!</p>
+
+        <nav>
+            <a href="#inicio">Início</a> |
+            <a href="#servicos">Serviços</a> |
+            <a href="#produtos">Produtos</a> |
+            <a href="#contato">Contato</a> |
+            <a href="#endereco">Endereço</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- apresentação -->
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo à MimoPet!</h2>
+
+            <p>
+                Aqui seu pet recebe todo o carinho e cuidado que merece. 
+                Oferecemos serviços especiais para cães e gatos!
+            </p>
+
+            <img
+                src="imagensfw/mimo.jpg"
+                alt="Imagem ilustrativa do MimoPet"
+                width="400"
+            >
+
+            <p>
+                <a href="#contato">Entre em contato!</a>
+            </p>
+        </section>
+
+        <hr>
+
+    <!-- serviços -->
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+
+            <article>
+                <h3>🛁 Banho</h3>
+                <p>Banho para deixar seu pet limpo e cheiroso.<br><small>Disponível com opção de tele-busca.</small></p>
+                <p>Valores a partir de R$ 60,00</p>
+            </article>
+
+            <article>
+                <h3>✂️ Tosa</h3>
+                <p>Tosa profissional com cuidado e carinho.<br><small>Disponível com opção de tele-busca.</small></p>
+                <p>Valores a partir de R$ 30,00</p>
+            </article>
+            
+                <p><em>
+                    Os valores de banho e tosa podem sofrer alterações de acordo com o porte
+                    e com o tipo de pelagem do seu pet.
+                </em></p>
+
+            <article>
+                <h3>🚗 Tele-busca</h3>
+                <p>Transporte especializado e seguro para o seu pet.</p>
+                <p>Disponível para todos os nossos serviços.</p>
+                <p>Valor: R$ 20,00</p>
+            </article>
+        </section>
+
+        <hr>
+
+    <!-- produtos -->      
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+
+            <!-- categoria: acessórios -->
+            <section>
+                <h3>Acessórios</h3>
+
+                <article>
+                    <h4>Arranhador para gatos</h4>
+                    <img
+                        src="imagensfw/acessorio1.jpg"
+                        alt="Arranhador para gatos"
+                        width="200"
+                    >
+                    <p>Arranhador grande para gatos.</p>
+                    <p>R$ 214,90</p>
+                </article>
+
+                <article>
+                    <h4>Caminha para pets</h4>
+                    <img
+                        src="imagensfw/acessorio2.jpg"
+                        alt="Caminha para pets"
+                        width="200"
+                    >
+                    <p>Cama média para cães e gatos.</p>
+                    <p>R$ 89,90</p>
+                </article>
+            </section>
+
+            <hr>
+
+            <!-- categoria: rações -->
+            <section>
+                <h3>Rações</h3>
+
+                <article>
+                    <h4>Ração Premium para cães</h4>
+                    <img
+                        src="imagensfw/racao1.jpg"
+                        alt="Ração Premium para cães"
+                        width="200"
+                    >
+                    <p>Alimento completo e nutritivo para cães adultos.</p>
+                    <p>Quantidade: 2,5kg</p>
+                    <p>R$ 74,90</p>
+                </article>
+
+                <article>
+                    <h4>Ração Premium para gatos</h4>
+                    <img
+                        src="imagensfw/racao2.jpg"
+                        alt="Ração Premium para gatos"
+                        width="200"
+                    >
+                    <p>Alimento completo e nutritivo para gatos adultos.</p>
+                    <p>Quantidade: 2,5kg</p>
+                    <p>R$ 74,90</p>
+                </article>
+            </section>
+
+        <hr>
+
+            <!-- categoria: higiene -->
+            <section>
+                <h3>Higiene</h3>
+
+                <article>
+                    <h4>Shampoo para cães</h4>
+                    <img
+                        src="imagensfw/higiene1.jpg"
+                        alt="Shampoo para cães"
+                        width="200"
+                    >
+                    <p>Shampoo neutro para cães adultos.</p>
+                    <p>Quantidade: 300ml</p>
+                    <p>R$ 54,90</p>
+                    
+                </article>
+
+                <article>
+                    <h4>Bandeja higiênica</h4>
+                    <img
+                        src="imagensfw/higiene2.jpg"
+                        alt="Bandeja higiênica"
+                        width="200"
+                    >
+                    <p>Caixa de areia média para gatos.</p>
+                    <p>R$ 49,90</p>
+                </article>
+            </section>
+
+        </section>
+
+        <hr>
+       
+    <!-- contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Telefone: (51) 99999-9999</p>
+    
+        <h3>Envie uma mensagem</h3>
+
+        <form action="#" method="post">
+
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br><br>
+
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="mensagem">Sua mensagem:</label>
+            <br>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                cols="30"
+                required
+            ></textarea>
+
+            <br><br>
+
+            <button type="submit">Enviar mensagem</button>
+
+        </form>
+    </section>
+    <hr>
+    
+    <!-- endereço -->
+    <section id="endereco">
+        <h2>Onde estamos</h2>
+        <p>Endereço: Rua dos Gatos, 1234</p>
+        <p>Horário: Segunda a sábado, das 9h às 18h.</p>
+    </section>
+
+    </main>
+
+    <hr>
+
+    <!-- rodapé -->
+        <footer>
+            <h3>Links úteis</h3>
+
+            <ul>
+                <li><a href="#inicio">Voltar ao início</a></li>
+                <li><a href="#servicos">Nossos serviços</a></li>
+                <li><a href="#produtos">Nossos produtos</a></li>
+                <li><a href="#contato">Fale com a gente</a></li>
+                <li><a href="#endereco">Onde estamos</a></li>
+            </ul>
+
+            <h3>Contato</h3>
+
+            <p>Telefone: (51) 99999-9999</p>
+
+            <h3>Informações legais</h3>
+
+            <p>Projeto desenvolvido por: Clara Chagas de Oliveira</p>
+            <p>&copy; 2026 MimoPet - Todos os direitos reservados.</p>
+
+            <p>Feito com 💜 para os nossos pets!</p>
+
+        </footer>
+
+    </body>
+    </html>
